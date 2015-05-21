@@ -70,11 +70,11 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
         // This is called when a tab is selected.
-		if(tab.getText().toString().equals("PlayList")) {
+		if(tab.getText().toString().equals("Playlist")) {
 			final Context context = this;
 			Intent intent = new Intent(context, musicPlayerActivity.class);
 			startActivity(intent);
-			setContentView(R.layout.player_page);
+			//setContentView(R.layout.player_page);
 		}
     }
 

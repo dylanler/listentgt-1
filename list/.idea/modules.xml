@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ActionBarCompat-Styled.iml" filepath="$PROJECT_DIR$/ActionBarCompat-Styled.iml" />
       <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/list.iml" filepath="$PROJECT_DIR$/list.iml" />
     </modules>
   </component>
 </project>

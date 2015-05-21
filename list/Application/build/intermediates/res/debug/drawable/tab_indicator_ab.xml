@@ -47,4 +47,4 @@
     <item android:drawable="@drawable/tab_selected_pressed_styled" android:state_focused="true"
         android:state_pressed="true" android:state_selected="true" />
 
-</selector><!-- From: file:/Users/michaelshea/Downloads/ActionBarCompat-Styled/Application/src/main/res/drawable/tab_indicator_ab.xml -->
+</selector><!-- From: file:/Users/michaelshea/github/listentgt/list/Application/src/main/res/drawable/tab_indicator_ab.xml -->

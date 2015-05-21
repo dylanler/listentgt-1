@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<TextView
+    	android:id="@+id/PD"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:text="Paired Devices" />
+	
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PD"
+        android:layout_above="@+id/Connect" >
+    </ListView>
+	
+	<Button
+		android:id="@+id/Connect"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:text="Connect via Bluetooth" />
+</RelativeLayout>
+<!-- From: file:/Users/michaelshea/github/listentgt/list/Application/src/main/res/layout/bluetooth_connect.xml -->

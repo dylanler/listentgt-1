@@ -46,5 +46,7 @@
         android:icon="@drawable/ic_action_settings"
         android:title="@string/menu_settings"
         support:showAsAction="never"/>
+		
 
-</menu><!-- From: file:/Users/michaelshea/Downloads/ActionBarCompat-Styled/Application/src/main/res/menu/main.xml -->
+
+</menu><!-- From: file:/Users/michaelshea/github/listentgt/list/Application/src/main/res/menu/main.xml -->
