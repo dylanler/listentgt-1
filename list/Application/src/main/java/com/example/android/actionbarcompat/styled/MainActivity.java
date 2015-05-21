@@ -21,6 +21,12 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
+import android.content.Context;
+import android.content.Intent;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * This sample shows you how to use ActionBarCompat with a customized theme. It utilizes a split
@@ -36,7 +42,7 @@ import android.view.Menu;
  * 'Android Action Bar Style Generator': http://jgilfelt.github.io/android-actionbarstylegenerator
  */
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
-
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +70,12 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
         // This is called when a tab is selected.
+		if(tab.getText().toString().equals("PlayList")) {
+			final Context context = this;
+			Intent intent = new Intent(context, musicPlayerActivity.class);
+			startActivity(intent);
+			setContentView(R.layout.player_page);
+		}
     }
 
     // Implemented from ActionBar.TabListener

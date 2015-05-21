@@ -46,5 +46,19 @@
         android:icon="@drawable/ic_action_settings"
         android:title="@string/menu_settings"
         support:showAsAction="never"/>
+		
+	<item
+		android:id="@+id/action_shuffle"
+		android:icon="@drawable/rand"
+		android:orderInCategory="1"
+		android:showAsAction="always"
+		android:title="Shuffle"/>
+ 
+	<item
+		android:id="@+id/action_end"
+		android:icon="@drawable/end"
+		android:orderInCategory="2"
+		android:showAsAction="always"
+		android:title="End"/>
 
 </menu>
